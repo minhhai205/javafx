@@ -1,0 +1,18 @@
+-- BorderPane chứa 5 thành phần left, top, buttom, right, centre:
+trong từng phần có thể chứa các layouts khác như HBox, VBox
+(Xem video 8) 
+
+-- GridPane: một lưới linh hoạt các hàng và cột: Xem thêm trong file dialog_login.java
+(https://www.javatpoint.com/javafx-gridpane)
+
+-- Hàm getText() để lấy giá trị từ 1 ô điện gái trị như textFiled
+   Validate dữ liệu xem video số 10: sử dụng try catch
+
+-- Xét nhiều lựa chọn bằng choice box nhưng giá trị mặc định chỉ xét đc bằng các giá trị đã khai báo
+   Nếu muốn xét các giá trị mặc định khác thì có thể dùng combobox
+
+-- List view cho phép chọn nhiều lựa chọn
+
+-- property: quản lí 1 giá trị trạng thái nhất định, kiểm soát và cho phép lắng nghe sự kiện thay đổi:
+   có thể bắt sự kienj thay đổi cho String, Integer...
+   Có ràng buộc property, xét giá trị này bằng giá trị khác

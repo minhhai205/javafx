@@ -1,0 +1,69 @@
+/* style.css */
+
+/* Đặt nền cho toàn bộ giao diện */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+/* Đặt font cho toàn bộ table */
+.table-view {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Đặt nền và viền cho các hàng trong table */
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #87ceeb;
+}
+
+/* Đặt nền và viền cho cột của table */
+.table-column-header {
+    -fx-background-color: #3e3e3e;
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #dcdcdc;
+    -fx-font-weight: bold;
+}
+
+/* Tùy chỉnh cho các button */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #2e7031;
+}
+
+/* Đặt khoảng cách cho các input TextField */
+.text-field {
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+}
+
+/* Căn lề và giãn cách cho HBox chứa các nút và input */
+.hbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
